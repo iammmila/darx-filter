@@ -1,0 +1,8 @@
+input[type="checkbox"] {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+    accent-color: #B1924C;
+    transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
+}
