@@ -7,7 +7,7 @@ const countrySelectSelected = document.querySelector(
   ".countries .select-selected"
 );
 const countrySelectOptions = document.querySelectorAll(
-  ".countries .select-options div"
+  ".countries .select-options > div"
 );
 //! seherler
 const citySelectSelected = document.querySelector(".cities .select-selected");
@@ -471,4 +471,12 @@ document.addEventListener("click", function (event) {
       container.classList.remove("show");
     });
   }
+  // countrySelectSelected.style.backgroundColor = "#fff";
+  // citySelectSelected.style.backgroundColor = "#fff";
+  // districtSelectSelected.style.backgroundColor = "#fff";
+  // buildingSelectSelected.style.backgroundColor = "#fff";
+  // offerSelectSelected.style.backgroundColor = "#fff";
+  // metroSelectSelected.style.backgroundColor = "#fff";
+  // targetSelectSelected.style.backgroundColor = "#fff";
+  // bedroomSelectSelected.style.backgroundColor = "#fff";
 });
